@@ -28,6 +28,8 @@ public:
 	// Variables
 	std::string Name_Pipe_Read;
 	std::string Name_Pipe_Write;
+	std::string Method;
+	double ColmLayerPerm;
 	int NumberPipes;
 	double ColThickness;
 	double BackfillPerm;
@@ -48,6 +50,9 @@ public:
 	double a31;
 	double a22;
 	double a13;
+	double k1;
+	double k2;
+	double k3;
 	int PipeInteger;
 	int couplingstatus;
 	int ExchangeTimeStep;
